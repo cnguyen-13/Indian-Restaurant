@@ -1,0 +1,19 @@
+.about {
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-story {
+  flex: 2;
+  padding: 20px;
+}
+
+.about-details {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 100px;
+}
