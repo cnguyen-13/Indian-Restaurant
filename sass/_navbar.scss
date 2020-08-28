@@ -4,9 +4,8 @@ header {
     width: 100vw;
     height: 10vh;
     color: #fff;
-    background-color: #181818;
-    transition: color 0.3s;
-    transition: background-color 0.3s;
+    background-color: #333;
+    transition: all 0.3s;
 }
 
 .nav-bar {
@@ -21,6 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    letter-spacing: 5px;
 }
 
 .nav-link-svg {
@@ -29,7 +29,10 @@ header {
 
 .nav-logo {
     flex: 1;
+    letter-spacing: 5px;
 }
+
+
 
 .nav-links-container {
     flex: 1;
@@ -48,7 +51,7 @@ header {
     display: block;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     header {
         padding: 0px 20px;
     }

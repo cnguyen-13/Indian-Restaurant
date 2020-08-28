@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Atomic+Age&display=swap');
+
+
 .hover-grow:hover {
     cursor: pointer;
     transform: scale(1.2);
     transition: transform 0.4s;
+}
+
+.fancy-font {
+    font-family: 'Atomic Age', cursive;
 }
 
 @media (max-width: 1024px) {
@@ -37,9 +44,8 @@
         border-color: #d35400;
         background-color: #d35400;
         color: #DDD;
-        transition: border-color 0.3s;
-        transition: color 0.3s;
-        transition: background-color 0.3s;
+        transition: all 0.3s;
+
     }
 }
 
