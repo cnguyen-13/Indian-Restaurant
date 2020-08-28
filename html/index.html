@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="../src/styles/styles.css">
     <title>Document</title>
@@ -13,23 +14,23 @@
     <header>
         <div class="nav-bar max-width-1500">
             <div class="nav-logo">
-                <h1>LOREM 50</h1>
+                <h1>INDIA'S SPICE</h1>
             </div>
             <div class="nav-links-container">
                 <nav>
                     <ul class="nav-links">
-                        <li class="hover-grow">ABOUT</li>
-                        <li class="hover-grow">MENU</li>
-                        <li class="hover-grow">GALLERY</li>
-                        <li class="social-link hover-grow">INSTAGRAM</li>
-                        <li class="social-link hover-grow">FACEBOOK</li>
-                        <li class="social-link hover-grow">YELP</li>
-                        <li class="social-link-img hover-grow"><img class="nav-link-svg"
-                                src="../images/instagram-dark.svg" alt="instagram link"></li>
-                        <li class="social-link-img hover-grow"><img class="nav-link-svg"
-                                src="../images/facebook-dark.svg" alt="facebook link"></li>
-                        <li class="social-link-img hover-grow"><img class="nav-link-svg" src="../images/yelp-dark.svg"
-                                alt="yelp link">
+                        <li class="hover-grow"><a href="#">ABOUT</a></li>
+                        <li class="hover-grow"><a href="#">MENU</a></li>
+                        <li class="hover-grow"><a href="#">GALLERY</a></li>
+                        <li class="social-link hover-grow"><a href="#">INSTAGRAM</a></li>
+                        <li class="social-link hover-grow"><a href="#">FACEBOOK</a></li>
+                        <li class="social-link hover-grow"><a href="#">YELP</a></li>
+                        <li class="social-link-img hover-grow"><a href="#"><img class="nav-link-svg"
+                                    src="../images/instagram-dark.svg" alt="instagram link"></a></li>
+                        <li class="social-link-img hover-grow"><a href="#"><img class="nav-link-svg"
+                                    src="../images/facebook-dark.svg" alt="facebook link"></a></li>
+                        <li class="social-link-img hover-grow"><a href="#"><img class="nav-link-svg"
+                                    src="../images/yelp-dark.svg" alt="yelp link"></a>
                         </li>
                     </ul>
                 </nav>
@@ -50,9 +51,9 @@
     </section>
 
     <!-- ABOUT AND DETAILS -->
-    <section class="about max-width-1100">
+    <section class="about max-width-1100" data-aos="fade-down">
         <div class="about-story">
-            <h2>Our Story & Mission</h2>
+            <h2 class="subtitle">Our Story & Mission</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit beatae necessitatibus minus non cupiditate
                 vero hic perspiciatis officia, unde facere assumenda. Obcaecati aperiam ea dolorum voluptates, pariatur
                 illo reprehenderit corporis molestiae delectus vel modi non placeat voluptatem sint facilis, facere
@@ -72,16 +73,16 @@
         </div>
         <div class="about-details">
             <div>
-                <h3>Phone #:</h3>
+                <h3 class="subtitle">Phone #:</h3>
                 <p>(555) - 555 - 555</p>
             </div>
             <div>
-                <h3>Location:</h3>
+                <h3 class="subtitle">Location:</h3>
                 <p>519 Generic Lane</p>
                 <p>Austin, TX 01234</p>
             </div>
             <div>
-                <h3>Hours:</h3>
+                <h3 class="subtitle">Hours:</h3>
                 <p>Mon - Fri</p>
                 <p>11am - 9pm</p>
                 <p>Sat - Sun</p>
@@ -92,13 +93,54 @@
 
     <!-- 2ND HERO -->
     <section class="hero second-hero">
-        <div class="hero-text">
+        <div class="hero-text second-hero-text" data-aos="fade-down">
             <h1 class="hero-title">BOLD FLAVORS</h1>
             <p class="hero-subtitle">Hungry Yet?</p>
-            <div class="cta" role="button">MENU</div>
+            <a href="#" class="cta" role="button">
+                <p>MENU</p>
+            </a>
         </div>
     </section>
+
+    <!-- DESCRIPTION -->
+    <section class="description  max-width-1100 max-width-450 ">
+        <div class="description-card" data-aos="fade-down">
+            <img class="description-card-img" src="../images/ingredients.jpg" alt="">
+            <h3 class="subtitle">Reowned Chefs</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit nesciunt nemo enim sed ullam odit fuga
+                porro veritatis, debitis quae aliquam similique minus quasi non nulla minima magni repellat libero ipsa
+                aspernatur cum! Obcaecati, quis nam illum natus eum esse accusamus perferendis
+            </p>
+
+        </div>
+        <div class="description-card" data-aos="fade-down">
+            <img class="description-card-img" src="../images/ingredients.jpg" alt="">
+            <h3 class="subtitle">Quality Ingredients</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut numquam magni a possimus maiores consequatur
+                ab doloribus! Adipisci non accusamus dolorem culpa esse itaque recusandae quasi explicabo sunt
+                voluptates nesciunt sapiente neque at aut a ex doloribus cum
+            </p>
+        </div>
+
+        <div class="description-card" data-aos="fade-down"><img class="description-card-img"
+                src="../images/butter-chicken.jpg" alt="">
+            <h3 class="subtitle">Authentic Flavors</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quos voluptatibus maiores, maxime vitae
+                nam, eligendi, illo aperiam deleniti omnis a dolore? Officia, suscipit reprehenderit ab ut similique
+                perspiciatis laudantium corporis. Dignissimos animi corporis debitis,
+            </p>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <div class="max-width-1100"></div>
+    </footer>
     <script src="../js/navbar.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

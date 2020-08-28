@@ -3,7 +3,7 @@ header {
     z-index: 2;
     width: 100vw;
     height: 10vh;
-    color: #DDD;
+    color: #fff;
     background-color: #181818;
     transition: color 0.3s;
     transition: background-color 0.3s;
@@ -14,7 +14,7 @@ header {
     margin: auto;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 40px;
 }
 
 .nav-links {

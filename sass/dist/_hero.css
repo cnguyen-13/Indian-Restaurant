@@ -10,8 +10,11 @@
 }
 
 .hero-text {
-  color: #DDD;
+  color: #fff;
   text-align: center;
+  opacity: 0;
+  transform: translateY(-20%);
+  animation: fadeIn 1s ease forwards;
 }
 
 .hero-title {
@@ -19,5 +22,16 @@
 }
 
 .hero-subtitle {
-  font-size: 2.25em;
+  font-size: 2em;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }
