@@ -1,23 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lobster', cursive;
+}
+
+body {
+    overflow-x: hidden;
+    line-height: 1.5;
+}
+
+main {
+    overflow-x: hidden;
+    width: 100vw;
     position: relative;
 }
 
-li {
-    list-style-type: none;
-}
-
-html {
-    overflow-x: hidden;
-}
-
 a {
-    color: #FFF;
     text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
 }
