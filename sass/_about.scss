@@ -1,8 +1,7 @@
-#about-page {
-    padding: 2rem;
-}
-
 .about {
+    position: relative;
+    z-index: -2;
+    padding: 1rem;
     text-align: center;
 
     div {

@@ -1,4 +1,5 @@
 .hero {
+    padding: 1rem;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -21,10 +22,7 @@
 
 @media (min-width: 1300px) {
     .hero {
-        .hero-title {
-            font-size: 48px;
-            display: block;
-        }
+
 
         .hero-image {
             width: 100%;
@@ -34,6 +32,15 @@
             color: white;
             background-color: #181818;
             padding: 0.5rem 1rem;
+        }
+    }
+}
+
+@media (min-width: 1400px) {
+    .hero {
+        .hero-title {
+            font-size: 48px;
+            display: block;
         }
     }
 }

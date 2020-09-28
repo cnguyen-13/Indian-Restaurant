@@ -14,3 +14,14 @@
         height: 100vh;
     }
 }
+
+main.max-width-1100 {
+    padding-top: clamp(80px, 1vh, 10vh);
+
+}
+
+@media (min-width: 1400px) {
+    main.max-width-1100 {
+        padding-top: 0;
+    }
+}
