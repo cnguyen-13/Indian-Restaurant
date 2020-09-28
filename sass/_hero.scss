@@ -1,0 +1,39 @@
+.hero {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: -2;
+
+    .hero-title {
+        display: none;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    .hero-description {
+        align-self: flex-end;
+        margin: 0.5rem 0;
+    }
+}
+
+@media (min-width: 1300px) {
+    .hero {
+        .hero-title {
+            font-size: 48px;
+            display: block;
+        }
+
+        .hero-image {
+            width: 100%;
+        }
+
+        .hero-description {
+            color: white;
+            background-color: #181818;
+            padding: 0.5rem 1rem;
+        }
+    }
+}

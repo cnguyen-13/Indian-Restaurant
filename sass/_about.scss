@@ -1,0 +1,43 @@
+#about-page {
+    padding: 2rem;
+}
+
+.about {
+    text-align: center;
+
+    div {
+        margin: 1rem 0;
+    }
+}
+
+.about-description {
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+.sub-section {
+    img {
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .about {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1300px) {
+    .about {
+        max-width: none;
+        margin: 0;
+        text-align: left;
+        width: 70%;
+    }
+}
