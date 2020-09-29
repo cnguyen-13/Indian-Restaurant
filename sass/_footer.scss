@@ -1,0 +1,23 @@
+footer {
+    padding: 1rem;
+    color: white;
+    margin: auto;
+    background-color: #181818;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    min-width: 50%;
+    border-left: 1px solid white;
+    padding: 2rem;
+}
+
+@media (min-width: 1300px) {
+    footer.footer-mb {
+        margin-bottom: 3rem;
+    }
+}

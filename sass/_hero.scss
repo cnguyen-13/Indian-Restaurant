@@ -11,6 +11,9 @@
     }
 
     .hero-image {
+        height: auto;
+        object-fit: cover;
+        object-position: center;
         width: 100%;
     }
 
@@ -22,8 +25,6 @@
 
 @media (min-width: 1300px) {
     .hero {
-
-
         .hero-image {
             width: 100%;
         }

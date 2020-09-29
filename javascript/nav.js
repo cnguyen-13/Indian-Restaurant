@@ -4,7 +4,6 @@ const navLinks = document.querySelectorAll('.nav-link');
 
 function slideNav() {
     navLinksList.classList.toggle('nav-links-active');
-    console.log('worked')
 }
 
 hamburger.addEventListener('click', slideNav);
