@@ -1,0 +1,20 @@
+//Colors
+$color-base: rgb(209, 60, 30);
+$color-secondary: rgb(151, 36, 9);
+$color-orange: rgb(220, 115, 49);
+
+.color-base {
+    color: $color-base;
+}
+
+.color-secondary {
+    color: $color-secondary
+}
+
+.color-base-bg {
+    background-color: $color-base;
+}
+
+.color-secondary-bg {
+    background-color: $color-secondary;
+}
