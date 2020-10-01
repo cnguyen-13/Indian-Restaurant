@@ -18,10 +18,10 @@ if (window.innerWidth > 1024) {
         duration: 0.5,
     }, '-=0.25').from('.gallery-image', {
         duration: 1,
-        y: -50,
+        y: -25,
         opacity: 0,
-        stagger: 0.25
-    }, '-=0.25');
+        stagger: 0.15
+    });
 }
 
 if (window.innerWidth <= 1024) {
@@ -34,8 +34,8 @@ if (window.innerWidth <= 1024) {
         y: '-50%'
     }, '-=1').from('.gallery-image', {
         duration: 1,
-        y: -50,
+        y: -25,
         opacity: 0,
-        stagger: 0.25
-    }, '-=0.25');
+        stagger: 0.15
+    });
 }
