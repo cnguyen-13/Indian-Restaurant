@@ -1,3 +1,5 @@
+AOS.init();
+
 if (window.innerWidth > 1024) {
     const timeline = gsap.timeline();
     timeline.from('.hero-image', {

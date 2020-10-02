@@ -16,3 +16,10 @@
     object-fit: cover;
     object-position: center;
 }
+
+@media(min-width: 1300px) {
+    .gallery {
+        justify-content: flex-start;
+
+    }
+}
