@@ -1,5 +1,5 @@
 .menu {
-    text-align: center;
+    text-align: right;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,25 +7,19 @@
 }
 
 .menu-sub-section {
+    width: 100%;
     margin: 2rem 0;
 
     h2 {
-        font-size: 2.5rem;
+        font-size: 3rem;
         margin: 1rem 0;
     }
 }
 
-.menu-items {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
 .menu-item {
-    margin: auto;
+    margin: 1rem auto;
 
-    h4 {
+    h3 {
         font-size: 1.25rem;
         letter-spacing: 1px;
     }

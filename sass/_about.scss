@@ -1,7 +1,4 @@
 .about {
-    position: relative;
-    z-index: -2;
-    padding: 1rem;
     text-align: center;
 }
 
@@ -13,8 +10,7 @@
 }
 
 .sub-section {
-    margin: 5rem 0;
-
+    margin: 3rem 0;
 
     img {
         width: 100%;
@@ -30,7 +26,6 @@
     .about {
         max-width: 70%;
         margin: 0 auto;
-
     }
 }
 

@@ -2,21 +2,22 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
         integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
         crossorigin="anonymous" defer></script>
     <script src="https://unpkg.com/zooming/build/zooming.min.js" defer></script>
     <script src="./javascript/galleryGSAP.js" defer></script>
     <script src="./javascript/nav.js" defer></script>
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>India's Spice | Gallery</title>
 </head>
 
 <body>
+    <!-- Navbar -->
     <header class="nav-bar">
-        <div class="nav-bar-content max-width-1100">
+        <div class="nav-bar-content max-width-1150">
             <h1>India's Spice</h1>
             <div class="hamburger">
                 <div class="line line-1"></div>
@@ -25,7 +26,9 @@
             </div>
             <nav class="nav-links">
                 <ul class="nav-links-list">
-                    <li class="nav-link"><a href="./index.html">About</a></li>
+                    <li class="nav-link">
+                        <a href="./index.html">About</a>
+                    </li>
                     <li class="nav-link"><a href="./menu.html">Menu</a></li>
                     <li class="nav-link"><a href="#">Gallery</a></li>
                     <li class="nav-link"><a href="#">Facebook</a></li>
@@ -35,36 +38,53 @@
             </nav>
         </div>
     </header>
-    <main class="max-width-1100">
-        <section class="gallery-main color-secondary-bg">
-            <h1 class="gallery-title">India's Spice Gallery</h1>
-            <p class="gallery-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa non a officiis
-                praesentium blanditiis
-                fugiat quam obcaecati nostrum tempora accusantium architecto atque suscipit, quis sapiente. Eius cumque,
-                molestiae earum neque asperiores iusto voluptatum harum ducimus beatae quos fugiat quasi rem! Nisi, quod
-                inventore qui, nam facilis quidem voluptatibus repudiandae unde saepe asperiores consequuntur
-                exercitationem. Atque at rem deserunt corrupti, nemo dolor similique voluptatibus eligendi distinctio
-                culpa architecto nostrum sit enim possimus explicabo blanditiis unde, quae cum numquam eius molestias
-                provident optio eos qui. Omnis, similique, soluta sint reiciendis in iure ducimus culpa deleniti
-                corrupti magnam ratione voluptate vel expedita optio?</p>
+
+    <!-- Main Content -->
+    <main class="max-width-1150">
+        <!-- Page description -->
+        <section class="page-intro">
+            <h1 class="page-intro-title">India's Spice Gallery</h1>
+            <p class="page-intro-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Culpa non a officiis praesentium blanditiis fugiat quam
+                obcaecati nostrum tempora accusantium architecto atque
+                suscipit, quis sapiente. Eius cumque, molestiae earum neque
+                asperiores iusto voluptatum harum ducimus beatae quos fugiat
+                quasi rem! Nisi, quod inventore qui, nam facilis quidem
+                voluptatibus repudiandae unde saepe asperiores consequuntur
+                exercitationem. Atque at rem deserunt corrupti, nemo dolor
+                similique voluptatibus eligendi distinctio culpa architecto
+                nostrum sit enim possimus explicabo blanditiis unde, quae
+                cum numquam eius molestias provident optio eos qui. Omnis,
+                similique, soluta sint reiciendis in iure ducimus culpa
+                deleniti corrupti magnam ratione voluptate vel expedita
+                optio?
+            </p>
         </section>
+
+        <hr class="red-divider">
+        <!-- Gallery -->
         <section class="gallery">
-            <img class="gallery-image" src="./images/gallery/food-1.jpg" alt="">
-            <img class="gallery-image" src="./images/gallery/food-2.jpg" alt="">
-            <img class="gallery-image" src="./images/gallery/food-3.jpg" alt="">
-            <img class="gallery-image" src="./images/gallery/food-4.jpg" alt="">
-            <img class="gallery-image" src="./images/gallery/food-5.jpg" alt="">
-            <img class="gallery-image" src="./images/gallery/food-6.jpg" alt="">
-            <img class="gallery-image" src="./images/gallery/food-7.jpg" alt="">
-            <img class="gallery-image" src="./images/gallery/food-8.jpg" alt="">
-            <img class="gallery-image" src="./images/gallery/food-9.jpg" alt="">
+            <img class="gallery-image" src="./images/gallery/food-1.jpg" alt="" />
+            <img class="gallery-image" src="./images/gallery/food-2.jpg" alt="" />
+            <img class="gallery-image" src="./images/gallery/food-3.jpg" alt="" />
+            <img class="gallery-image" src="./images/gallery/food-4.jpg" alt="" />
+            <img class="gallery-image" src="./images/gallery/food-5.jpg" alt="" />
+            <img class="gallery-image" src="./images/gallery/food-6.jpg" alt="" />
+            <img class="gallery-image" src="./images/gallery/food-7.jpg" alt="" />
+            <img class="gallery-image" src="./images/gallery/food-8.jpg" alt="" />
+            <img class="gallery-image" src="./images/gallery/food-9.jpg" alt="" />
         </section>
-        <div class="background-accent bg-1"></div>
+
+        <!-- Side Background-->
+        <div class="side-bg side-bg-1"></div>
     </main>
-    <footer class="max-width-1100 footer-mb">
+
+    <!-- General Footer Section -->
+    <footer class="max-width-1150 footer-mb">
         <div class="footer-content">
             <h2>India's Spice</h2>
-            <div class="footer-item">
+            <div>
                 <p>519 Generic Lane, Austin, TX 01234</p>
                 <p>(123) - 456 - 7890</p>
                 <p>indiaspice@example.com</p>

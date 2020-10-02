@@ -1,10 +1,42 @@
-.max-width-1100 {
+.max-width-1150 {
+    padding: 1rem;
     max-width: 1150px;
     margin: auto;
 }
 
+main.max-width-1150 {
+    padding-top: clamp(80px, 1vh, 10vh);
+}
+
+.page-intro {
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+
+    .page-intro-title {
+        font-size: 48px;
+        color: $color-base;
+    }
+
+}
+
+hr.red-divider {
+    height: 0.5rem;
+    background-color: $color-base;
+    border: none;
+
+}
+
 @media (min-width: 1300px) {
-    .background-accent {
+    .page-intro {
+        text-align: left;
+
+        .page-intro-description {
+            width: 70%;
+        }
+    }
+
+    .side-bg {
         position: fixed;
         z-index: -3;
         top: 0;
@@ -13,28 +45,24 @@
         height: 100vh;
     }
 
-    .bg-1 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero-indian-2.jpg');
+    .side-bg-1 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url('../images/hero-indian-2.jpg');
     }
 
-    .bg-2 {
+    .side-bg-2 {
         background-color: orange;
     }
 
-    .bg-3 {
-
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/food-panorama-samosa-tacos-yellow-dal_resized.jpg');
+    .side-bg-3 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url('../images/food-panorama-samosa-tacos-yellow-dal_resized.jpg');
         background-position-x: 60%;
     }
 }
 
-main.max-width-1100 {
-    padding-top: clamp(80px, 1vh, 10vh);
-
-}
-
 @media (min-width: 1400px) {
-    main.max-width-1100 {
+    main.max-width-1150 {
         padding-top: 0;
     }
 }
